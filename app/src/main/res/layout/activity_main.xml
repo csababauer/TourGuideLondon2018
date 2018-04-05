@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgr"
+    tools:context="com.example.csaba.tourguidelondon2018.MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginVertical="20dp"
+        android:text="London Tourist Guide"
+        android:gravity="center"
+        android:background="@drawable/silhouette"
+        style="@style/font"
+        android:textColor="#D8D4F2"
+        >
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="#D8D4F2"
+        android:layout_marginBottom="-18dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="2dp"
+            >
+
+            <TextView
+                android:id="@+id/sight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="Sightseeings"
+                style="@style/font"
+                android:textColor="@color/textcolor" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                android:id="@+id/parks"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="Parks"
+                style="@style/font"
+                android:textColor="@color/textcolor" />
+        </FrameLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:backgroundTint="#D8D4F2">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                android:id="@+id/streetart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="StreetArt"
+                style="@style/font"
+                android:textColor="@color/textcolor" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/button"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                android:id="@+id/hotels"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="Hotels"
+                style="@style/font"
+                android:textColor="@color/textcolor" />
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

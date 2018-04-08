@@ -22,37 +22,37 @@ public class Hotels extends AppCompatActivity {
         setContentView(R.layout.list_view);
 
         /** locations */
-        android.location.Location location1 = new android.location.Location("Alhambra Hotel");
+        android.location.Location location1 = new android.location.Location(getString(R.string.AlhambraHotel)) ;
         location1.setLatitude(51.5292885);
         location1.setLongitude(-0.1247364);
-        android.location.Location location2 = new android.location.Location("grangeholborn");
+        android.location.Location location2 = new android.location.Location(getString(R.string.grangeholborn));
         location2.setLatitude(51.519271);
         location2.setLongitude(-0.1233077);
-        android.location.Location location3 = new android.location.Location("grangetowerhotel");
+        android.location.Location location3 = new android.location.Location(getString(R.string.grangetowerhotel));
         location3.setLatitude(51.5220028);
         location3.setLongitude(-0.0739024);
-        android.location.Location location4 = new android.location.Location("moxy");
+        android.location.Location location4 = new android.location.Location(getString(R.string.moxy));
         location4.setLatitude(51.5256545);
         location4.setLongitude(0.0026285);
-        android.location.Location location5 = new android.location.Location("parkplaza");
+        android.location.Location location5 = new android.location.Location(getString(R.string.parkplaza));
         location5.setLatitude(51.5009568);
         location5.setLongitude(-0.1254412);
-        android.location.Location location6 = new android.location.Location("Reemhotel");
+        android.location.Location location6 = new android.location.Location(getString(R.string.Reemhotel));
         location6.setLatitude(51.5133946);
         location6.setLongitude(-0.1941466);
-        android.location.Location location7 = new android.location.Location("Stgiles");
+        android.location.Location location7 = new android.location.Location(getString(R.string.Stgiles));
         location7.setLatitude(51.517473);
         location7.setLongitude(-0.1328781);
-        android.location.Location location8 = new android.location.Location("Towerhotel");
+        android.location.Location location8 = new android.location.Location(getString(R.string.Towerhotel));
         location8.setLatitude(51.5064438);
         location8.setLongitude(-0.0759838);
-        android.location.Location location9 = new android.location.Location("Travelodge");
+        android.location.Location location9 = new android.location.Location(getString(R.string.Travelodge));
         location9.setLatitude(51.5109887);
         location9.setLongitude(-0.0756985);
-        android.location.Location location10 = new android.location.Location("Westbury hotel");
+        android.location.Location location10 = new android.location.Location(getString(R.string.Westburyhotel));
         location10.setLatitude(51.5112954);
         location10.setLongitude(-0.144799);
-        android.location.Location location11 = new android.location.Location("Park Plaza Victoria Hotel");
+        android.location.Location location11 = new android.location.Location(getString(R.string.ParkPlazaVictoriaHotel));
         location11.setLatitude(51.4942477);
         location11.setLongitude(-0.1440095);
 

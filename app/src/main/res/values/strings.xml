@@ -1,3 +1,67 @@
 <resources>
     <string name="app_name">TourGuideLondon2018</string>
+    <string name="Sightseeings">Sightseeings</string>
+    <string name="LondonTouristGuide">London Tourist Guide</string>
+    <string name="parks">Parks</string>
+    <string name="streetart">Street Art</string>
+    <string name="hotels">Hotels</string>
+    <string name="AlhambraHotel">Alhambra Hotel</string>
+    <string name="grangeholborn">grangeholborn</string>
+    <string name="grangetowerhotel">grangetowerhotel</string>
+    <string name="moxy">moxy</string>
+    <string name="parkplaza">parkplaza</string>
+    <string name="Reemhotel">Reemhotel</string>
+    <string name="Stgiles">St Giles Hotel</string>
+    <string name="Towerhotel">Tower hotel</string>
+    <string name="Travelodge">Travelodge</string>
+    <string name="Westburyhotel">Westbury Hotel</string>
+    <string name="ParkPlazaVictoriaHotel">Park Plaza Victoria Hotel</string>
+    <string name="AlexandraPark">Alexandra Park</string>
+    <string name="ChelseaPhysicGarden">Chelsea Physic Garden</string>
+    <string name="GreenwichPark">Greenwich Park</string>
+    <string name="HampsteadHeath">Hampstead Heath</string>
+    <string name="HydePark">Hyde Park</string>
+    <string name="Queen">Queen Elizabeth Olympic Park</string>
+    <string name="RegentsPark">Regents Park</string>
+    <string name="RichmondPark">Richmond Park</string>
+    <string name="RoyalBotanicGardens">Royal Botanic Gardens, Kew, Richmond</string>
+    <string name="StJamesPark">St James Park</string>
+    <string name="WoodberryWetlands">Woodberry Wetlands</string>
+    <string name="BigBen">Big Ben</string>
+    <string name="BrickLaneLondon">Brick Lane, London</string>
+    <string name="BuckinghamPalace">Buckingham Palace</string>
+    <string name="CamdentheStables">Camden Market and the Stables</string>
+    <string name="LondonEye">London Eye</string>
+    <string name="TheShard">The Shard</string>
+    <string name="SouthBank">South Bank</string>
+    <string name="TheTowerofLondon">The Tower of London</string>
+    <string name="TowerBridge">The Tower Bridge</string>
+    <string name="TrafalgarSquare">Trafalgar Square</string>
+    <string name="WestminsterAbbey">Westminster Abbey</string>
+    <string name="BellLane">Bell Lane</string>
+    <string name="FashionStreet">Fashion Street</string>
+    <string name="GreatEasternStLondon">Great Eastern St, London</string>
+    <string name="HeneageStreetLondon">Heneage Street, London</string>
+    <string name="PrinceletStreetLondon">Princelet Street, London</string>
+    <string name="RivingtonStreetLondon">Rivington Street, London</string>
+    <string name="ShoreditchHighStreet">Shoreditch High Street</string>
+    <string name="ToynbeeStreet">Toynbee Street</string>
+    <string name="AngelComedyClub">Angel Comedy Club</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </resources>

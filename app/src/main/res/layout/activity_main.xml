@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginVertical="20dp"
-        android:text="London Tourist Guide"
+        android:text="@string/LondonTouristGuide"
         android:gravity="center"
         android:background="@drawable/silhouette"
         style="@style/font"
@@ -46,7 +46,7 @@
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackground"
                 android:gravity="center"
-                android:text="Sightseeings"
+                android:text="@string/Sightseeings"
                 style="@style/font"
                 android:textColor="@color/textcolor" />
         </FrameLayout>
@@ -64,7 +64,7 @@
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackground"
                 android:gravity="center"
-                android:text="Parks"
+                android:text="@string/parks"
                 style="@style/font"
                 android:textColor="@color/textcolor" />
         </FrameLayout>
@@ -91,7 +91,7 @@
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackground"
                 android:gravity="center"
-                android:text="StreetArt"
+                android:text="@string/streetart"
                 style="@style/font"
                 android:textColor="@color/textcolor" />
         </FrameLayout>
@@ -108,7 +108,7 @@
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackground"
                 android:gravity="center"
-                android:text="Hotels"
+                android:text="@string/hotels"
                 style="@style/font"
                 android:textColor="@color/textcolor" />
         </FrameLayout>

@@ -21,37 +21,37 @@ public class Sightseeing extends AppCompatActivity {
         setContentView(R.layout.list_view);
 
         /** locations */
-        android.location.Location location1 = new android.location.Location("Big Ben");
+        android.location.Location location1 = new android.location.Location(getString(R.string.BigBen));
         location1.setLatitude(51.5007292);
         location1.setLongitude(-0.1268141);
-        android.location.Location location2 = new android.location.Location("Brick Lane, London");
+        android.location.Location location2 = new android.location.Location(getString(R.string.BrickLaneLondon));
         location2.setLatitude(51.5224618);
         location2.setLongitude(-0.073335);
-        android.location.Location location3 = new android.location.Location("Buckingham Palace");
+        android.location.Location location3 = new android.location.Location(getString(R.string.BuckinghamPalace));
         location3.setLatitude(51.501364);
         location3.setLongitude(-0.1440787);
-        android.location.Location location4 = new android.location.Location("Camden Market and the Stables");
+        android.location.Location location4 = new android.location.Location(getString(R.string.CamdentheStables));
         location4.setLatitude(51.5423591);
         location4.setLongitude(-0.1494229);
-        android.location.Location location5 = new android.location.Location("London Eye");
+        android.location.Location location5 = new android.location.Location(getString(R.string.LondonEye));
         location5.setLatitude(51.5009095);
         location5.setLongitude(-0.121721);
-        android.location.Location location6 = new android.location.Location("The Shard");
+        android.location.Location location6 = new android.location.Location(getString(R.string.TheShard));
         location6.setLatitude(51.5045);
         location6.setLongitude(-0.0886887);
-        android.location.Location location7 = new android.location.Location("South Bank");
+        android.location.Location location7 = new android.location.Location(getString(R.string.SouthBank));
         location7.setLatitude(51.5021033);
         location7.setLongitude(-0.1224091);
-        android.location.Location location8 = new android.location.Location("The Tower of London");
+        android.location.Location location8 = new android.location.Location(getString(R.string.TheTowerofLondon));
         location8.setLatitude(51.5072781);
         location8.setLongitude(-0.0770609);
-        android.location.Location location9 = new android.location.Location("The Tower Bridge");
+        android.location.Location location9 = new android.location.Location(getString(R.string.TowerBridge));
         location9.setLatitude(51.5054564);
         location9.setLongitude(-0.0775452);
-        android.location.Location location10 = new android.location.Location("Trafalgar Square");
+        android.location.Location location10 = new android.location.Location(getString(R.string.TrafalgarSquare));
         location10.setLatitude(51.50809);
         location10.setLongitude(-0.1291379);
-        android.location.Location location11 = new android.location.Location("Westminster Abbey");
+        android.location.Location location11 = new android.location.Location(getString(R.string.WestminsterAbbey));
         location11.setLatitude(51.4993815);
         location11.setLongitude(-0.1286692);
 

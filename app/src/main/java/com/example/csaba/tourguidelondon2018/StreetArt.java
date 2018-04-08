@@ -22,37 +22,37 @@ public class StreetArt extends AppCompatActivity {
         setContentView(R.layout.list_view);
 
         /** locations */
-        android.location.Location location1 = new android.location.Location("Bell Lane");
+        android.location.Location location1 = new android.location.Location(getString(R.string.BellLane));
         location1.setLatitude(51.5173037);
         location1.setLongitude(-0.0779103);
-        android.location.Location location2 = new android.location.Location("Fashion Street");
+        android.location.Location location2 = new android.location.Location(getString(R.string.FashionStreet));
         location2.setLatitude(51.5184783);
         location2.setLongitude(-0.0744767);
-        android.location.Location location3 = new android.location.Location("Great Eastern St, London");
+        android.location.Location location3 = new android.location.Location(getString(R.string.GreatEasternStLondon));
         location3.setLatitude(51.5247198);
         location3.setLongitude(-0.0831063);
-        android.location.Location location4 = new android.location.Location("Heneage Street, London");
+        android.location.Location location4 = new android.location.Location(getString(R.string.HeneageStreetLondon));
         location4.setLatitude(51.5189656);
         location4.setLongitude(-0.0724671);
-        android.location.Location location5 = new android.location.Location("Princelet Street, London");
+        android.location.Location location5 = new android.location.Location(getString(R.string.PrinceletStreetLondon));
         location5.setLatitude(51.5197814);
         location5.setLongitude(-0.0733793);
-        android.location.Location location6 = new android.location.Location("Rivington Street, London");
+        android.location.Location location6 = new android.location.Location(getString(R.string.RivingtonStreetLondon));
         location6.setLatitude(51.5261178);
         location6.setLongitude(-0.0828406);
-        android.location.Location location7 = new android.location.Location("Shoreditch High Street");
+        android.location.Location location7 = new android.location.Location(getString(R.string.ShoreditchHighStreet));
         location7.setLatitude(51.5243576);
         location7.setLongitude(-0.0794343);
-        android.location.Location location8 = new android.location.Location("Toynbee Street");
+        android.location.Location location8 = new android.location.Location(getString(R.string.ToynbeeStreet));
         location8.setLatitude(51.517547);
         location8.setLongitude(-0.07654);
-        android.location.Location location9 = new android.location.Location("Angel Comedy Club");
+        android.location.Location location9 = new android.location.Location(getString(R.string.AngelComedyClub));
         location9.setLatitude(51.5357857);
         location9.setLongitude(-0.103721);
-        android.location.Location location10 = new android.location.Location("Princelet Street, London");
+        android.location.Location location10 = new android.location.Location(getString(R.string.PrinceletStreetLondon));
         location10.setLatitude(51.5197814);
         location10.setLongitude(-0.0733793);
-        android.location.Location location11 = new android.location.Location("Princelet Street, London");
+        android.location.Location location11 = new android.location.Location(getString(R.string.PrinceletStreetLondon));
         location11.setLatitude(51.5197814);
         location11.setLongitude(-0.0733793);
 

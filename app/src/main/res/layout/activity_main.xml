@@ -1,115 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/backgr"
-    tools:context="com.example.csaba.tourguidelondon2018.MainActivity"
-    >
+    android:orientation="vertical"
+    tools:context="com.example.csaba.tourguidelondon2018.MainActivity">
 
     <TextView
         android:id="@+id/header"
+        style="@style/font"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginVertical="20dp"
-        android:text="@string/LondonTouristGuide"
-        android:gravity="center"
         android:background="@drawable/silhouette"
-        style="@style/font"
-        android:textColor="#D8D4F2"
-        >
+        android:gravity="center"
+        android:text="@string/LondonTouristGuide"
+        android:textColor="#D8D4F2">
 
     </TextView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:orientation="horizontal"
+        android:layout_marginBottom="-18dp"
         android:background="@android:drawable/dialog_holo_light_frame"
         android:backgroundTint="#D8D4F2"
-        android:layout_marginBottom="-18dp">
+        android:orientation="horizontal">
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/button"
-            android:layout_marginRight="1dp"
             android:layout_marginBottom="2dp"
-            >
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@color/button">
 
             <TextView
                 android:id="@+id/sight"
+                style="@style/font"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackground"
                 android:gravity="center"
                 android:text="@string/Sightseeings"
-                style="@style/font"
                 android:textColor="@color/textcolor" />
         </FrameLayout>
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/button"
+            android:layout_marginBottom="2dp"
             android:layout_marginRight="1dp"
-            android:layout_marginBottom="2dp">
+            android:layout_weight="1"
+            android:background="@color/button">
 
             <TextView
                 android:id="@+id/parks"
+                style="@style/font"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackground"
                 android:gravity="center"
                 android:text="@string/parks"
-                style="@style/font"
                 android:textColor="@color/textcolor" />
         </FrameLayout>
     </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:orientation="horizontal"
-            android:background="@android:drawable/dialog_holo_light_frame"
-            android:backgroundTint="#D8D4F2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="#D8D4F2"
+        android:orientation="horizontal">
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/button"
+            android:layout_marginBottom="2dp"
             android:layout_marginRight="1dp"
-            android:layout_marginBottom="2dp">
+            android:layout_weight="1"
+            android:background="@color/button">
 
             <TextView
                 android:id="@+id/streetart"
+                style="@style/font"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackground"
                 android:gravity="center"
                 android:text="@string/streetart"
-                style="@style/font"
                 android:textColor="@color/textcolor" />
         </FrameLayout>
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
             android:layout_weight="1"
-            android:background="@color/button"
-            android:layout_marginBottom="2dp">
+            android:background="@color/button">
 
             <TextView
                 android:id="@+id/hotels"
+                style="@style/font"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="?android:attr/selectableItemBackground"
                 android:gravity="center"
                 android:text="@string/hotels"
-                style="@style/font"
                 android:textColor="@color/textcolor" />
         </FrameLayout>
 

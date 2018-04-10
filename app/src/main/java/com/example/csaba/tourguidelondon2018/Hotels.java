@@ -60,17 +60,17 @@ public class Hotels extends AppCompatActivity {
 
         final ArrayList<Item> hotels = new ArrayList<>();
 
-        hotels.add(new Item("Alhambra Hotel", "A mile from the British Museum", "£66", R.drawable.alhambra, location1));
-        hotels.add(new Item("Grangeholborn Hotel", "a 5-minute walk from the British Museum", "£100", R.drawable.grangeholborn, location2));
-        hotels.add(new Item("Grangetowerhotel", "Brick Lane", "£60", R.drawable.grangetowerhotel, location3));
-        hotels.add(new Item("MOXY Stratford Hotel", " 6-minute walk from Westfield Stratford City shopping centre", "£65", R.drawable.moxy, location4));
-        hotels.add(new Item("Parkplaza Hotel", "5-minute walk from the London Eye and a mile from Big Ben", "£120", R.drawable.parkplaza, location5));
-        hotels.add(new Item("Reemhotel", "a Victorian townhouse, this simple hotel in leafy Prince's Square is a 6-minute walk from Kensington Palace ", "£110", R.drawable.reemhotel, location6));
-        hotels.add(new Item("St Giles Hotel", "Located a block from the Tottenham Court Road tube station and shopping on Oxford Street,", "£100", R.drawable.stgiles,location7));
-        hotels.add(new Item("Towerhotel", "On the River Thames next to Tower Bridge, this sprawling modern hotel", "£95", R.drawable.towerhotel, location8));
-        hotels.add(new Item("Travelodge Hotel", "the verge of the City of London and the trendy East End, this low-key budget hotel is a 5-minute walk from Tower Hill ", "£112", R.drawable.travelodge, location9));
-        hotels.add(new Item("Westburyhotel", "A 2-minute walk from the renowned Harrods department store, this high-end hotel in the prestigious Mayfair district ", "£255", R.drawable.westburyhotel, location10));
-        hotels.add(new Item("Park Plaza Victoria Hotel", "4-minute walk from Victoria railway/underground station, this straightforward conference hotel is within a mile of both Buckingham Palace ", "£135", R.drawable.parkplazavictoria, location11));
+        hotels.add(new Item(getString(R.string.AlhambraHotel), getString(R.string.Alhambrahoteldesc), getString(R.string.price1), R.drawable.alhambra, location1));
+        hotels.add(new Item(getString(R.string.grangeholborn), getString(R.string.grangeholborndesc) , getString(R.string.price2), R.drawable.grangeholborn, location2));
+        hotels.add(new Item(getString(R.string.grangetowerhotel), getString(R.string.grangetowerdesc), getString(R.string.price1), R.drawable.grangetowerhotel, location3));
+        hotels.add(new Item(getString(R.string.moxy), getString(R.string.moxydesc), getString(R.string.price1), R.drawable.moxy, location4));
+        hotels.add(new Item(getString(R.string.parkplaza), getString(R.string.parkplazadesc), getString(R.string.price2), R.drawable.parkplaza, location5));
+        hotels.add(new Item(getString(R.string.Reemhotel), getString(R.string.reemhoteldesc), getString(R.string.price1), R.drawable.reemhotel, location6));
+        hotels.add(new Item(getString(R.string.Stgiles), getString(R.string.stgilesdesc), getString(R.string.price3), R.drawable.stgiles,location7));
+        hotels.add(new Item(getString(R.string.Towerhotel), getString(R.string.towerhoteldesc), getString(R.string.price1), R.drawable.towerhotel, location8));
+        hotels.add(new Item(getString(R.string.Travelodge), getString(R.string.travelodgedesc), getString(R.string.price2), R.drawable.travelodge, location9));
+        hotels.add(new Item(getString(R.string.Westburyhotel), getString(R.string.Westburydesc), getString(R.string.price1), R.drawable.westburyhotel, location10));
+        hotels.add(new Item(getString(R.string.ParkPlazaVictoriaHotel), getString(R.string.parkpalzavictoriadesc), getString(R.string.price3), R.drawable.parkplazavictoria, location11));
 
         final ItemAdapter adapter = new ItemAdapter(this, hotels);
 

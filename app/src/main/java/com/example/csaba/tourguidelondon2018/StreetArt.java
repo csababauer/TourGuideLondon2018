@@ -60,17 +60,17 @@ public class StreetArt extends AppCompatActivity {
 
         final ArrayList<Item> streetArt = new ArrayList<>();
 
-        streetArt.add(new Item("Bell Lane E1", "artist: Alex Senna", " ", R.drawable.belllane, location1));
-        streetArt.add(new Item("Fashion Street London", "artists: ", " ", R.drawable.fashionstreet, location2));
-        streetArt.add(new Item("Great Eastern St, London", "‘Lets Adore And Endure Each Other.’ ", " ", R.drawable.greateasternstreet, location3));
-        streetArt.add(new Item("Heneage Street, London", "artist : Lewis Campbell", " ", R.drawable.heneagestreet, location4));
-        streetArt.add(new Item("Princelet Street, London", "artist : Stik ", " ", R.drawable.princeletstreet, location5));
-        streetArt.add(new Item("Rivington Street, London", "artist: Banksy", " ", R.drawable.rivingtonstreet, location6));
-        streetArt.add(new Item("Shoreditch High Street", "artist: Gregos Art", " ", R.drawable.shoreditchhighstreet, location7));
-        streetArt.add(new Item("Angel Comedy Club", "artist: Zabou Artist ", " ", R.drawable.zabou, location8));
-        streetArt.add(new Item("Princelet Street, London", "artist : Stik", "0", R.drawable.princeletstreet, location9));
-        streetArt.add(new Item("Princelet Street, London", "artist : Stik", "0", R.drawable.princeletstreet, location10));
-        streetArt.add(new Item("Princelet Street, London", "artist : Stik", "0", R.drawable.princeletstreet, location11));
+        streetArt.add(new Item(getString(R.string.BellLane), getString(R.string.belllanear), " ", R.drawable.belllane, location1));
+        streetArt.add(new Item(getString(R.string.FashionStreet), getString(R.string.belllanear), " ", R.drawable.fashionstreet, location2));
+        streetArt.add(new Item(getString(R.string.GreatEasternStLondon), getString(R.string.greateasterndesc), " ", R.drawable.greateasternstreet, location3));
+        streetArt.add(new Item(getString(R.string.HeneageStreetLondon), getString(R.string.heneagedesc), " ", R.drawable.heneagestreet, location4));
+        streetArt.add(new Item(getString(R.string.PrinceletStreetLondon), getString(R.string.stik), " ", R.drawable.princeletstreet, location5));
+        streetArt.add(new Item(getString(R.string.RivingtonStreetLondon), getString(R.string.banksy), " ", R.drawable.rivingtonstreet, location6));
+        streetArt.add(new Item(getString(R.string.ShoreditchHighStreet), getString(R.string.gregos), " ", R.drawable.shoreditchhighstreet, location7));
+        streetArt.add(new Item(getString(R.string.AngelComedyClub), getString(R.string.zabou), " ", R.drawable.zabou, location8));
+        streetArt.add(new Item(getString(R.string.PrinceletStreetLondon), getString(R.string.stik), " ", R.drawable.princeletstreet, location9));
+        streetArt.add(new Item(getString(R.string.PrinceletStreetLondon), getString(R.string.stik), " ", R.drawable.princeletstreet, location9));
+        streetArt.add(new Item(getString(R.string.PrinceletStreetLondon), getString(R.string.stik), " ", R.drawable.princeletstreet, location9));
 
         final ItemAdapter adapter = new ItemAdapter(this, streetArt);
 

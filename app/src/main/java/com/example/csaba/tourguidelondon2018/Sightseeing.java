@@ -56,23 +56,19 @@ public class Sightseeing extends AppCompatActivity {
         location11.setLongitude(-0.1286692);
 
 
-
-
-
-
         final ArrayList<Item> sightseeings = new ArrayList<>();
 
-        sightseeings.add(new Item("Big Ben", "16-storey Gothic clocktower and national symbol at the Eastern end of the Houses of Parliament.", "£0", R.drawable.bigben, location1));
-        sightseeings.add(new Item("Brick Lane, London", "street art", "£0", R.drawable.bricklane, location2));
-        sightseeings.add(new Item("Buckingham Palace", "Visitors can tour the palace's opulent private and state rooms or watch the changing of the guard.", "£20", R.drawable.buckinghampalace, location3));
-        sightseeings.add(new Item("Camden Market and the Stables", "market", "£0", R.drawable.camden, location4));
-        sightseeings.add(new Item("London Eye", "The London Eye is a giant Ferris wheel on the South Bank of the River Thames in London.", "£33", R.drawable.londoneye, location5));
-        sightseeings.add(new Item("The Shard", "87-floor glass skyscraper with a jagged peak, with restaurants, offices, hotel and viewing platform.", "£24.95", R.drawable.shard, location6));
-        sightseeings.add(new Item("South Bank", "Right beside the River Thames", "£0", R.drawable.southbank, location7));
-        sightseeings.add(new Item("The Tower of London", " Her Majesty's Royal Palace and Fortress of the Tower of London", "£29", R.drawable.thetower, location8));
-        sightseeings.add(new Item("Tower Bridge", "Panoramic views from high level walkways and behind-the-scenes access to original lifting machinery.", "£20", R.drawable.towerbridge, location9));
-        sightseeings.add(new Item("Trafalgar Square", "Nelson's Column rises above this iconic square's LED-lit fountains, artworks and lion statues.", "0", R.drawable.trafalgarsq, location10));
-        sightseeings.add(new Item("Westminster Abbey", "Protestant abbey hosting daily services and every English and British coronation since 1066.", "£19", R.drawable.westminster, location11));
+        sightseeings.add(new Item(getString(R.string.BigBen), getString(R.string.bigbendesc), getString(R.string.price0), R.drawable.bigben, location1));
+        sightseeings.add(new Item (getString(R.string.BrickLaneLondon), getString(R.string.brickdesc), getString(R.string.price0), R.drawable.bricklane, location2));
+        sightseeings.add(new Item(getString(R.string.BuckinghamPalace), getString(R.string.buckhimgdesc), getString(R.string.price4), R.drawable.buckinghampalace, location3));
+        sightseeings.add(new Item(getString(R.string.CamdentheStables), getString(R.string.camdendesc), getString(R.string.price0), R.drawable.camden, location4));
+        sightseeings.add(new Item(getString(R.string.LondonEye), getString(R.string.Londoneyedesc), getString(R.string.price1), R.drawable.londoneye, location5));
+        sightseeings.add(new Item(getString(R.string.TheShard), getString(R.string.sharddesc), getString(R.string.price4), R.drawable.shard, location6));
+        sightseeings.add(new Item(getString(R.string.SouthBank), getString(R.string.southbankdesc), getString(R.string.price0), R.drawable.southbank, location7));
+        sightseeings.add(new Item(getString(R.string.TheTowerofLondon), getString(R.string.towerlondondesc), getString(R.string.price0), R.drawable.thetower, location8));
+        sightseeings.add(new Item(getString(R.string.TowerBridge), getString(R.string.towerbridgedesc), getString(R.string.price0), R.drawable.towerbridge, location9));
+        sightseeings.add(new Item (getString(R.string.TrafalgarSquare), getString(R.string.trafdesc), getString(R.string.price0), R.drawable.trafalgarsq, location10));
+        sightseeings.add(new Item(getString(R.string.WestminsterAbbey), getString(R.string.westminsterdesc), getString(R.string.price4), R.drawable.westminster, location11));
 
         final ItemAdapter adapter = new ItemAdapter(this, sightseeings);
 

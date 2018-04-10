@@ -61,17 +61,17 @@ public class Parks extends AppCompatActivity {
 
         final ArrayList<Item> parks = new ArrayList<>();
 
-        parks.add(new Item("Alexandra Park", "Big park with tree-lined jogging paths, a boating lake, kids’ playgrounds & resident fallow deer.", "£0", R.drawable.alexandrapark, location1));
-        parks.add(new Item("Chelsea Physic Garden", "Chelsea, London SW3 5TS", "£0", R.drawable.chelseaphysicgarden, location2));
-        parks.add(new Item("Greenwich Park", "Greenwich, London SE10 8QY", "£0", R.drawable.greenwichpark, location3));
-        parks.add(new Item("Hampstead Heath", "Green oasis for recreation, with swimming ponds, woodland and city views from Parliament Hill.", "£0", R.drawable.hampsteadheath, location4));
-        parks.add(new Item("Hyde Park", "Huge green space, home to Diana Memorial Fountain, with boating and swimming in the Serpentine lake.", "£0", R.drawable.hydepark, location5));
-        parks.add(new Item("Queen Elizabeth Olympic Park", "Bridges, wild land and play parks weave a latticework around London's 2012 Olympic venues.", "£0", R.drawable.queen_elizabeth_olympic_park_original, location6));
-        parks.add(new Item("Regents Park", "Modern, glass-clad cafe and sports administrative centre, with pitches and changing rooms.", "£0", R.drawable.regentsparkavenue, location7));
-        parks.add(new Item("Richmond Park", "Expansive walled park, originally a 17th-century hunting ground and still home to hundreds of deer.", "£0", R.drawable.richmondpark, location8));
-        parks.add(new Item("Royal Botanic Gardens, Kew, Richmond", "Trees and flowers from around the globe in vast gardens with huge greenhouses and Treetop Walkway.", "£10", R.drawable.royalbotanicgardenskew, location9));
-        parks.add(new Item("St James's Park", "Green space with a lake with daily pelican feeding, a grass-roofed cafe and ceremonial displays.", "£0", R.drawable.stjamespark, location10));
-        parks.add(new Item("Woodberry Wetlands", "Nature reserve", "£0", R.drawable.woodberrywetlands, location11));
+        parks.add(new Item(getString(R.string.AlexandraPark), getString(R.string.alexandraparkdesc), getString(R.string.price0), R.drawable.alexandrapark, location1));
+        parks.add(new Item(getString(R.string.ChelseaPhysicGarden), getString(R.string.chealseagardendesc), getString(R.string.price0), R.drawable.chelseaphysicgarden, location2));
+        parks.add(new Item(getString(R.string.GreenwichPark), getString(R.string.greenwichparkdesc), getString(R.string.price0), R.drawable.greenwichpark, location3));
+        parks.add(new Item(getString(R.string.HampsteadHeath), getString(R.string.hhdesc), getString(R.string.price0), R.drawable.hampsteadheath, location4));
+        parks.add(new Item(getString(R.string.HydePark), getString(R.string.hydeparkdesc), getString(R.string.price0), R.drawable.hydepark, location5));
+        parks.add(new Item(getString(R.string.Queen), getString(R.string.Quueenpark), getString(R.string.price0), R.drawable.queen_elizabeth_olympic_park_original, location6));
+        parks.add(new Item(getString(R.string.RegentsPark), getString(R.string.regentsdesc), getString(R.string.price0), R.drawable.regentsparkavenue, location7));
+        parks.add(new Item(getString(R.string.RichmondPark), getString(R.string.richmonddesc), getString(R.string.price0), R.drawable.richmondpark, location8));
+        parks.add(new Item(getString(R.string.RoyalBotanicGardens), getString(R.string.royalkew), getString(R.string.price4), R.drawable.royalbotanicgardenskew, location9));
+        parks.add(new Item(getString(R.string.StJamesPark), getString(R.string.stjamesdesc), getString(R.string.price0), R.drawable.stjamespark, location10));
+        parks.add(new Item(getString(R.string.WoodberryWetlands), getString(R.string.woodlanddesc), getString(R.string.price0), R.drawable.woodberrywetlands, location11));
 
         final ItemAdapter adapter = new ItemAdapter(this, parks);
 

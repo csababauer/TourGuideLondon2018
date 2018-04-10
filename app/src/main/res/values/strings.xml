@@ -6,9 +6,9 @@
     <string name="streetart">Street Art</string>
     <string name="hotels">Hotels</string>
     <string name="AlhambraHotel">Alhambra Hotel</string>
-    <string name="grangeholborn">grangeholborn</string>
+    <string name="grangeholborn">Grange Holborn</string>
     <string name="grangetowerhotel">grangetowerhotel</string>
-    <string name="moxy">moxy</string>
+    <string name="moxy">MOXY Stratford Hotel</string>
     <string name="parkplaza">parkplaza</string>
     <string name="Reemhotel">Reemhotel</string>
     <string name="Stgiles">St Giles Hotel</string>
@@ -47,21 +47,49 @@
     <string name="ShoreditchHighStreet">Shoreditch High Street</string>
     <string name="ToynbeeStreet">Toynbee Street</string>
     <string name="AngelComedyClub">Angel Comedy Club</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="Alhambrahoteldesc">"A mile from the British Museum</string>
+    <string name="price1">£60</string>
+    <string name="price2">£80</string>
+    <string name="price3">£160</string>
+    <string name="price4">£19</string>
+    <string name="price0">£0</string>
+    <string name="grangeholborndesc">a 5-minute walk from the British Museum</string>
+    <string name="grangetowerdesc">"Brick Lane"</string>
+    <string name="moxydesc">6-minute walk from Westfield Stratford City shopping centre</string>
+    <string name="parkplazadesc">5-minute walk from the London Eye and a mile from Big Ben</string>
+    <string name="reemhoteldesc">a Victorian townhouse, this simple hotel in leafy Princes Square is a 6-minute walk from Kensington Palace </string>
+    <string name="stgilesdesc">Located a block from the Tottenham Court Road tube station and shopping on Oxford Street</string>
+    <string name="towerhoteldesc">On the River Thames next to Tower Bridge, this sprawling modern hotel</string>
+    <string name="travelodgedesc">the verge of the City of London and the trendy East End, this low-key budget hotel is a 5-minute walk from Tower Hill</string>
+    <string name="Westburydesc">A 2-minute walk from the renowned Harrods department store, this high-end hotel in the prestigious Mayfair district </string>
+    <string name="parkpalzavictoriadesc">4-minute walk from Victoria railway/underground station, this straightforward conference hotel is within a mile of both Buckingham Palace </string>
+    <string name="alexandraparkdesc">Big park with tree-lined jogging paths, a boating lake, kids’ playgrounds and resident fallow deer.</string>
+    <string name="chealseagardendesc">Chelsea, London SW3 5TS</string>
+    <string name="greenwichparkdesc">Greenwich, London SE10 8QY</string>
+    <string name="hhdesc">Green oasis for recreation, with swimming ponds, woodland and city views from Parliament Hill.</string>
+    <string name="hydeparkdesc">Huge green space, home to Diana Memorial Fountain, with boating and swimming in the Serpentine lake.</string>
+    <string name="Quueenpark">Bridges, wild land and play parks weave a latticework around Londons 2012 Olympic venues.</string>
+    <string name="regentsdesc">Modern, glass-clad cafe and sports administrative centre, with pitches and changing rooms.</string>
+    <string name="richmonddesc">Expansive walled park, originally a 17th-century hunting ground and still home to hundreds of deer.</string>
+    <string name="royalkew">Trees and flowers from around the globe in vast gardens with huge greenhouses and Treetop Walkway.</string>
+    <string name="stjamesdesc">Green space with a lake with daily pelican feeding, a grass-roofed cafe and ceremonial displays.</string>
+    <string name="woodlanddesc">Nature reserve</string>
+    <string name="bigbendesc">16-storey Gothic clocktower and national symbol at the Eastern end of the Houses of Parliament.</string>
+    <string name="brickdesc">street art</string>
+    <string name="buckhimgdesc">Visitors can tour the palaces opulent private and state rooms or watch the changing of the guard.</string>
+    <string name="camdendesc">market</string>
+    <string name="Londoneyedesc">The London Eye is a giant Ferris wheel on the South Bank of the River Thames in London.</string>
+    <string name="sharddesc">87-floor glass skyscraper with a jagged peak, with restaurants, offices, hotel and viewing platform.</string>
+    <string name="southbankdesc">Right beside the River Thames</string>
+    <string name="towerlondondesc">Her Majesty s Royal Palace and Fortress of the Tower of London</string>
+    <string name="towerbridgedesc">Panoramic views from high level walkways and behind-the-scenes access to original lifting machinery.</string>
+    <string name="trafdesc">Nelsons Column rises above this iconic squares LED-lit fountains, artworks and lion statues.</string>
+    <string name="westminsterdesc">Protestant abbey hosting daily services and every English and British coronation since 1066.</string>
+    <string name="belllanear">artist: Alex Senna</string>
+    <string name="greateasterndesc">‘Lets Adore And Endure Each Other.’</string>
+    <string name="heneagedesc">artist : Lewis Campbell</string>
+    <string name="stik">artist : Stik</string>
+    <string name="banksy">artist: Banksy</string>
+    <string name="gregos">artist: Gregos Art</string>
+    <string name="zabou">artist: Zabou Artist</string>
 </resources>
